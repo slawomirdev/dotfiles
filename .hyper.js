@@ -113,7 +113,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-search', "verminal", "hyperline", "git-falcon9"],
+  plugins: ['hyper-search', "verminal", "hyperline", "gitrocket"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
