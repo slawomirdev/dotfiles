@@ -1,7 +1,19 @@
 {
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
-  "material-icon-theme.folders.theme": "specific",
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // Use prettier as default formatter
+  // "editor.defaultFormatter": "esbenp.prettier-vscode", // Use prettier as default formatter
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact",
+    "html"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
   "editor.formatOnPaste": true, // format code on paste
   "editor.formatOnSave": true, // format code when you hit save
   "files.trimTrailingWhitespace": true, // remove trailing white spaces from all lines
@@ -27,14 +39,27 @@
   },
   "tabnine.experimentalAutoImports": true,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "typescript": "html"
   },
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira Code", //editor
   "editor.fontLigatures": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.activeIconPack": "react",
-  "files.autoSave": "afterDelay",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.folders.theme": "specific",
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/dist": false
+  },
   "window.zoomLevel": 1
 }
