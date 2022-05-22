@@ -1,0 +1,40 @@
+{
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "material-icon-theme.folders.theme": "specific",
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Use prettier as default formatter
+  "editor.formatOnPaste": true, // format code on paste
+  "editor.formatOnSave": true, // format code when you hit save
+  "files.trimTrailingWhitespace": true, // remove trailing white spaces from all lines
+  "files.trimFinalNewlines": true, // Ensures there's only one blank line at the end of the file
+  "editor.quickSuggestions": true,
+  "editor.semanticHighlighting.enabled": false,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "files.associations": {
+    "*.jsx": "JavaScript React",
+    "*.js": "javascriptreact"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react",
+  "files.autoSave": "afterDelay",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "window.zoomLevel": 1
+}
